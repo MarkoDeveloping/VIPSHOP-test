@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f8f8f8;
+    padding-top: 59px;
+}
+/* NAV BAR */
+.prodavnica {
+    background: #fed803;
+    color: #fff;
+}
+.nesto {
+    padding: 0 8px;
+}
+.nesto2 {
+    margin-right: 10px;
+}
+#mainNav .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+#mainNav .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+}
+#mainNav .navbar-brand {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.form-control:focus {
+    border-color: #bb9f00;
+    box-shadow: 0 0 0 0.2rem #dab900b4;
+}
+.dizajneri {
+    margin: 0;
+    text-transform: capitalize;
+}
+/* PRODUCTS */
+.right-container {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.showmore {
+    color: #635400;
+    text-decoration: 0;
+}
+.showmore:hover {
+    color: #947e00;
+    text-decoration: 0;
+}
+.roba {
+    margin: 5px;
+    width: 250px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fed803;
+    border-radius: 5px;
+}
+.opis {
+    background: #fed803;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cijena {
+    color: #635400;
+    font-size: 30px;
+}
+.naziv {
+    margin-top: 8px;
+    font-size: 17px;
+}
+.opis p {
+    /* color: #000; */
+    font-weight: 500;
+}
+.duks {
+    height: 300px;
+}
+
+
+@media (max-width: 994px) {
+    .searccc {
+        display: none;
+    }
+}
+@media (max-width: 618px) {
+    .serc {
+        width: 80%;
+    }
+    .menuu {
+        width: 60%;
+    }
+}

@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: #f8f8f8;
+    padding-top: 59px;
+}
+
+.prodavnica {
+    background: #fed803;
+    color: #fff;
+}
+.nesto {
+    padding: 0 8px;
+}
+.nesto2 {
+    margin-right: 10px;
+}
+#mainNav .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+#mainNav .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+}
+#mainNav .navbar-brand {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.form-control:focus {
+    border-color: #bb9f00;
+    box-shadow: 0 0 0 0.2rem #dab900b4;
+}
+.dizajneri {
+    margin: 0;
+    text-transform: capitalize;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.product {
+    display: flex;
+    top: 100px;
+    position: relative;
+    width: 50%;
+    margin: 5px;
+    flex-direction: column;
+}
+.about-product {
+    top: 50px;
+    margin: 5px;
+    width: 50%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.details {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.velicine {
+    color: #000;
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    outline: 0;
+}
+span {
+    font-size: 25px;
+    color: rgb(173, 0, 0);
+}
+.loremce {
+    margin-top: 25px;
+    text-align: left;
+}
+h4 {
+    margin-top: 10px;
+} 
+.razmak {
+    border-top: 1px solid #dddddd;
+}
+@media (max-width: 845px) {
+    .container-fluid {
+        display: flex;
+        /* text-align: center; */
+        align-items: center;
+        justify-content: center;
+    }
+    .product {
+        top: 5px;
+    }
+}
+
+
+@media (max-width: 994px) {
+    .searccc {
+        display: none;
+    }
+}
+@media (max-width: 618px) {
+    .serc {
+        width: 80%;
+    }
+    .menuu {
+        width: 60%;
+    }
+    .container-fluid {
+        display: flex;
+        /* text-align: center; */
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product {
+        top: 5px;
+        width: 100%;
+    }
+    .about-product {
+        width: 100%;
+    }
+}

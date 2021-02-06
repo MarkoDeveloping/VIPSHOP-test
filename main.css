@@ -1,0 +1,486 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fff;
+    padding-top: 59px;
+}
+.prodavnica {
+    background: #fff;
+    color: #000;
+}
+.nesto {
+    padding: 0 8px;
+}
+.nesto2 {
+    margin-right: 10px;
+}
+#mainNav .navbar-toggler {
+    color: #000;
+    border-color: #000;
+}
+#mainNav .nav-link {
+    color: #000;
+    text-transform: capitalize;
+}
+#mainNav .navbar-brand {
+    font-size: 22px;
+    color: #000;
+    letter-spacing: 3px;
+}
+.form-control:focus {
+    border-color: #b6b6b6;
+    box-shadow: 0 0 0 0.2rem rgba(199, 199, 199, 0.25);
+}
+.dizajneri {
+    margin: 0;
+    text-transform: capitalize;
+}
+.dropdown-divider {
+    border-top: 1px solid #d8b800;
+}
+/* HOMEPAGE BIG PHOTO */
+.top-pic {
+    width: 100%;
+    height: 500px;
+    background-image: url('./zena.jpg');
+    position: relative;
+}
+.layer {
+    background-color: #fed803be;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.tekstslike {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 90%;
+}
+.tekstslike h1 {
+    font-size: 110px;
+}
+.tekstslike p {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.tekstslike a {
+    font-size: 27px;
+    text-decoration: 0;
+    color: #fff;
+    background: #151e3e;
+    padding: 0 25px 2px 25px;
+    border-radius: 12px;
+}
+/* SORTIRANJE/FILTRIRANJE PO ... */
+.sortby {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.sortby .filsort {
+    margin: 10px 30px 10px 10px;
+    background: 0;
+    border: 0;
+    font-weight: 600;
+    color: #000;
+}
+.sortby .filsort:focus {
+    border-color: #fed80300 !important;
+    box-shadow: 0 0 0 0.2rem rgba(243, 239, 9, 0) !important;
+}
+.dropdown-toggle:active, .dropdown-toggle {
+    background:0 !important; 
+    color:#000 !important;
+}
+.dropdown-menu {
+    background:#fed803 !important;
+    color:#000 !important;
+}
+.dropdown-menu .izbor {
+    background:#fed803 !important;
+}
+/* PRODUCTS */
+.main-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.left-container {
+    width: 35%;
+    margin: 10px;
+}
+
+.right-container {
+    margin: 10px;
+    width: 85%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* DROPDOWN CATEGORIES */
+details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary::before {
+    content: '+';
+}
+
+details[open] > summary::before {
+    content: '+';
+}
+summary:focus {
+    outline: 0;
+}
+details {
+    border-bottom: 1px solid #000;
+    padding: 0.5rem;
+    outline: 0;
+}
+
+details[open] > summary {
+    margin-bottom: 0.3rem;
+}
+.linkovi-cat {
+    padding-left: 15px;
+    list-style-type: none;
+}
+.linkovi-cat a {
+    color: #000;
+    text-decoration: 0;
+}
+.linkovi-cat a:hover {
+    color: #fed803;
+    transition: .3s;
+}
+
+/* FILTER PRICE FROM 25 TO 500... */
+
+.filt-price {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.filt-price input {
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 4px;
+}
+.filtprajs {
+    margin-top: 20px;
+}
+/* BRAND */
+.brand-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 6px;
+}
+.brand-tag a {
+    color: #000;
+    text-decoration: none;
+}
+.brand-tag a:hover {
+    color: #fed803;
+    transition: .5s;
+}
+/* PROIZVODI SA SLIKOM I CIJENOM */
+.showmore {
+    color: #635400;
+    text-decoration: 0;
+}
+.showmore:hover {
+    color: #947e00;
+    text-decoration: 0;
+}
+.roba {
+    margin: 5px;
+    width: 250px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+}
+.opis {
+    background: #fed803;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cijena {
+    color: #635400;
+    font-size: 30px;
+}
+.naziv {
+    margin-top: 8px;
+    font-size: 17px;
+}
+.opis p {
+    /* color: #000; */
+    font-weight: 500;
+}
+.duks {
+    height: 300px;
+}
+/* 1,2,3 SLIDE */
+.slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 15px;
+}
+.slide a {
+    text-decoration: 0;
+    color: #fff;
+    background: #151e3e;
+    padding: 3px 9px;
+    margin: 3px;
+}
+.slide a:hover {
+    color: #fed803;
+    transition: .4s;
+}
+/* ABOUT SHOP */
+.about {
+    background: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 343px;
+}
+.about h1 {
+    font-size: 60px;
+}
+.ikonicee i {
+    margin: 0 4px;
+}
+/* NEWSLETTER */
+.news {
+    background: #151e3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 343px;
+}
+.news h1 {
+    font-size: 60px;
+    letter-spacing: 4px;
+    color: #b6b6b6;
+    margin-bottom: 15px;
+}
+.news p {
+    color: #b6b6b6;
+}
+.news button {
+    background: 0;
+    border: 1px solid #b6b6b6;
+    border-radius: 4%;
+    padding: 0 22px;
+    color: #b6b6b6;
+}
+.entermejl {
+    padding: 27px 5px;
+}
+/* FOOTER */
+.p-4 {
+    background: #0f1529;
+}
+.linkovii {
+    color: #fff;
+    text-align: left;
+}
+.footer-link {
+    color: #b6b6b6 !important;
+    letter-spacing: 1.3px;
+}
+.linkovii li a:hover {
+    color: #666666 !important;
+    text-decoration: 0;
+}
+.p-3 {
+    background: #0f1529 !important;
+}
+
+@media (min-width: 1084px) {
+    .filt-price {
+        display: flex;
+        justify-content: space-around;
+        margin: 6px;
+    }
+    .filt-price input {
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+} 
+@media (max-width: 1185px) {
+    .filt-price {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    .filt-price input {
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+}
+/* @media (max-height: 837px) {
+    .filt-price {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    .filt-price input {
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+} */
+
+@media (max-width: 1083px) {
+    .left-container {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+    }
+    .naslov-cat {
+        text-align: center;
+    }
+    .right-container {
+        width: 94%;
+    }
+}
+
+@media (max-width: 994px) {
+    .searccc {
+        display: none;
+    }
+}
+@media (max-width: 975px) {
+    .tekstslike {
+        width: 90%;
+    }
+    .tekstslike h1 {
+        font-size: 80px;
+    }
+    .tekstslike p {
+        font-size: 17px;
+    }
+}
+@media (max-width: 710px) {
+    .tekstslike {
+        width: 90%;
+    }
+    .tekstslike h1 {
+        font-size: 80px;
+    }
+    .tekstslike p {
+        font-size: 17px;
+    }
+}
+@media (max-width: 618px) {
+    .tekstslike {
+        width: 70%;
+    }
+    .tekstslike h1 {
+        font-size: 82px;
+    }
+    .menuu {
+        width: 60%;
+    }
+    .serc {
+        width: 80%;
+    }
+    .about h1 {
+        font-size: 50px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 533px) {
+    .tekstslike {
+        width: 90%;
+    }
+    .tekstslike h1 {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    .tekstslike p {
+        font-size: 18px;
+    }
+    .left-container {
+        width: 85%;
+    }
+}
+@media (max-width: 485px) {
+    .tekstslike {
+        width: 85%;
+    }
+    .tekstslike h1 {
+        font-size: 65px;
+        margin-bottom: 20px;
+    }
+    .tekstslike p {
+        font-size: 15px;
+    }
+    .main-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column; 
+    }
+    .left-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 94%;
+    }
+    .naslov-cat {
+        text-align: left;
+    }
+    .right-container {
+        width: 94%;
+    }
+    .about h1 {
+        font-size: 50px;
+    }
+    .about p {
+        text-align: left;
+        font-size: 14px;
+    }
+    .news p {
+        text-align: left;
+    }
+}
+@media (min-width: 324px) and (max-width: 438px) {
+    .about h1 {
+        font-size: 35px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+    .news h1 {
+        font-size: 35px;
+        letter-spacing: 0;
+    }
+}
+@media (max-width: 320px) {
+    .tekstslike h1 {
+        font-size: 22px;
+    }
+}
